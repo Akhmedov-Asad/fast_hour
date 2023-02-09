@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(180deg, red, blue);  
+}
+.title{
+    max-width: 400px;
+    font-family: monospace;
+    font-size: 34px;
+    font-weight: 900;
+}
+.sub__title{
+    font-family: monospace;
+    font-size: 16px;
+}
+.input{
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: #fefefe; 
+    border-color: red;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 172px;
+    left: 200px;
+    width: 69px;
+    height: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: #fefefe;
+}
+.span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+.span p{
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: 600;
+}
+.span img{
+    width: 40px;
+    height: 30px;
+}
